@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#wrapper-personal-account
+{
+	background-color:aliceblue;
+}
+
+
+
+
+.UserProfile li
+{
+	margin-left:50px;
+	font-size:15px;
+	list-style:none;
+	
+	
+}
+
+.UserProfileDetails {
+	height:700px;
+	
+	
+}
+
+.UserProfileDetails ul li{
+	padding:5px;
+	list-style:none;
+	display:block;
+	overflow:auto;	
+}
+
+.UserProfileDetails ul li input[type="text"]
+{
+	width:250px;
+	height:20px;
+	font-size:10px;
+	display:block;
+	list-style:none;
+}
+
+.UserProfileDetails ul li input[type="password"]
+{
+	width:250px;
+	height:20px;
+	font-size:10px;
+	display:block;
+	list-style:none;
+}
+
+.UserProfileDetails ul li input[type="submit"]
+{
+	font-size:15px;
+	width:120px;
+	height:30px;
+	list-style:none;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

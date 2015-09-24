@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#wrapper-deleteUser
+{
+	background-color:#F36;
+}
+
+.ManageUser li
+{
+	margin-left:50px;
+	font-size:15px;
+	list-style:none;
+	background-color:#F36;
+	
+	
+}

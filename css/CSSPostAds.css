@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* show errors*/
+ /*right sidebar*/
+ .postAdsRightPanel
+{
+	
+	float:right;
+	vertical-align:bottom;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	text-align:left;
+	
+	border-width:2px;
+	border-color:transparent;
+	height:100%;
+	width:400px;
+	border-style:solid;
+	
+/*	background-color:;*/
+}         
+.postAdsBody
+{
+	float:left;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	
+	border-width:2px;
+	border-color:#999;
+	height:100%;
+	width:600px;
+	border-style:none;
+	
+/*	background-color:;*/
+}
+
+.successResult label 
+{
+	padding-bottom:100px
+	
+	background-repeat:no-repeat;
+	background-position:center center;
+
+	position:relative;
+	width:170px;
+	height:50px;
+	margin:20px auto;
+	margin-left:500px;
+	width:90%;
+	background:-moz-linear-gradient(top left,red,  #c10000, #ae0000 );
+	background:-webkit-linear-gradient(top left, #C30,#900);
+	
+}
+
+.btnViewAds {
+	display:block;
+	font-size:12px;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	padding: 8px 12px;
+/*	border-radius:3px;
+	box-shadow:inset 0px 0px 2px #F96;
+	-webkit-box-shadow: inset 0px 0px 2px #FC9;
+	color: #F96;
+	border: 1px solid #F96;
+	background-color:#FC0;*/
+	
+	margin-left:500px; float:none;
+	margin-right:500px; 
+	color: #986a39;
+/*	border: 1px solid #e6b650;*/
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#febf4d), to(#ffd974));
+	background-image: -webkit-linear-gradient(#ffd974, #febf4d);
+	text-shadow: 1px 1px 1px #fbe5ac;
+	background-color: #febf4d;
+}
+
+.btnViewAds:active {
+	border-left:500px;
+	box-shadow: inset 0px 0px 3px #999;
+	-webkit-box-shadow: inset 0px 0px 3px #999;
+	border: 1px solid #936b26;
+}
+.btnViewAds:hover{
+	border: 1px solid #c1913d;
+	margin-left:500px;
+	margin-right:500px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd974), to(#febf4d));
+	background-image: -webkit-linear-gradient(#febf4d, #ffd974);
+	background-position:top center;
+	background-color: #ffd974;
+	
+}
+.postAdsRightPanel ul{
+	list-style:none;
+}
+	
+.postAdsRightPanel li{
+	list-style-type:none;
+	margin-top:10px;
+}
+.postAdsRightPanel li label{
+width:200px;
+	height:20px;
+	text-align:left;
+	font-family:Arial;
+	font-size:14px;
+	line-height:20px;
+	float:left;
+	
+}
+
+.postAdsBody ul{
+	list-style:none;
+	
+}
+	
+.postAdsBody li{
+	list-style-type:none;
+	margin-top:10px;
+}
+
+.postAdsBody li label{
+	width:200px;
+	height:20px;
+	text-align:left;
+	font-family:Arial;
+	font-size:14px;
+	line-height:20px;
+	float:left;
+	
+}
+
+.postAdsBody drop_down
+{
+	margin-left:0px;
+	width:100px;
+
+}
+
+/*.postAdsBody input[type="text"]
+{
+	margin-left:10px;
+}*/
+
+.postAdsBody textarea
+{
+	margin-left:0px;
+	width:335px;
+}
+
+.postAdsBody input[type="file"]
+{
+	margin-left:10px;
+}
+
+.postAdsBody li text{
+	margin:0;
+	padding: 0;
+	display: block;
+	font-size: 100%;
+	width:300px;
+	text-align:justify;
+	
+}
+.postAdsBody chooseFile{
+	margin:0px;
+	padding:0;
+	display:block;
+	width:200px;
+	height:200px;
+	background-color:#;
+}
+.postAdsBody li radio{
+	margin:0px;
+	padding:0;
+	display:block;
+	width:200px;
+	height:200px;
+	float:left;
+}
+.radioBtnGroup{
+	margin-left:200px;
+}
+
+
+.browseBtn{
+	margin-left:450px;
+	margin-top:-100px;
+}
+
+/*.submitButton
+{
+font-family:"Times New Roman";
+font-size:small;
+width:50px;
+margin-left:185px;
+margin-top:100px;
+text-align:center;
+
+}*/
+
+
+/*input:active,
+input:focus,
+input:hover, 
+textarea:active,
+/*textarea:hover{
+background-color:#FFF;
+border-color:#FFF;
+}*/
+/*
+.postAdsBody{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1.25em;
+}	
+.postAdsBody label {
+    margin: 0;
+	padding: 0;
+	display: block;
+	font-size:100%; 
+	padding-top: .1em;
+	padding-right: .25em;
+	width: 6em;
+	text-align:left;
+	float:left;
+}
+*/
+
+/*
+.postAdsBody
+{
+position:fixed;
+left:80px;
+width:1000px;
+background-color:#666;
+}
+*/
+
+
+ 
+ 
+
